@@ -56,7 +56,7 @@ export class App extends Component {
   hendleSubmitForm = searchValue => {
     this.setState({ searchValue, page: 1, images: [] });
   };
-
+  і;
   loadMore = () => {
     this.setState(prevState => ({
       page: prevState.page + 1,
